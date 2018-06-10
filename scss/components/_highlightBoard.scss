@@ -1,0 +1,42 @@
+// background-color: rgba(28,13,10,.75);
+// }
+
+// $highlight-board-content-padding: 1.949rem 1rem;
+
+.c-HighlightBoard {
+  text-align: center;
+  position: relative;
+      width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.c-HighlightBoard__image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-HighlightBoard__overlay {
+      position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+        background-color: rgba(28,13,10,.75);
+}
+
+.c-HighlightBoard__content {
+  padding-top: 1.949rem;
+  padding-bottom: 1.949rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.c-HighlightBoard__content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

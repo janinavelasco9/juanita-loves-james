@@ -1,0 +1,21 @@
+{
+  "name": "juanita-loves-james",
+  "version": "1.0.0",
+  "description": "A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janinavelasco9/juanita-loves-james.git"
+  },
+  "author": "Janina Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janinavelasco9/juanita-loves-james/issues"
+  },
+  "homepage": "https://github.com/janinavelasco9/juanita-loves-james#readme"
+}
