@@ -14,8 +14,9 @@
 }
 
 .c-HighlightBoard__image {
-  height: 100%;
   object-fit: cover;
+  height: 750px;
+    width: 100%;
 }
 
 .c-HighlightBoard__overlay {
@@ -33,10 +34,12 @@
   padding-left: 1rem;
   padding-right: 1rem;
   width: 100%;
-}
-
-.c-HighlightBoard__content {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.c-HighlightBoard__title {
+  font-size: 55px;
+  color: $teal;
 }

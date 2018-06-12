@@ -5,7 +5,7 @@
 //
 // Namespaces
 ///
-$scales-namespace: 'sprk-';
+$scales-namespace: 'sls-';
 $scales-base-class-namespace: 'b-';
 $scales-components-class-namespace: 'c-';
 $scales-objects-class-namespace: 'o-';
@@ -33,24 +33,29 @@ $centered-column-width: 64rem;
 // Font Stack
 $system-font-stack: null;
 $system-body-fonts: false;
-$body-font-stack: 'Open Sans', sans-serif;
+$body-font-stack: 'Roboto', sans-serif;
 $system-heading-fonts: false;
-$heading-font-stack: 'Montserrat', sans-serif;
+$heading-font-stack: 'Roboto Slab', sans-serif;
 
 // Set Scales vars
 $h1-size: 40px;
-$h1-color: $teal;
+$h1-color: $brown;
 $h1-line-height: 1;
 $h1-weight: 700;
 
 $h2-size: 28px;
-$h2-color: $yellow;
+$h2-color: $teal;
 $h2-line-height: 1.3;
 $h2-weight: 700;
+
+$h3-size: 22px;
+$h3-line-height: 1.3;
 
 $base-font-size: 22px;
 $base-line-height: 1.75;
 $font-size-unit: rem;
+
+$text-margins: 0 0 1em 0;
 
 //
 // Consistent Style Vars
