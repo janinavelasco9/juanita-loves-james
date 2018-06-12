@@ -1,0 +1,21 @@
+.b-Link {
+    color: $teal;
+    text-decoration: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $teal;
+        text-decoration: none;
+    }
+}
+
+.b-Link--plain {
+    text-decoration: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}

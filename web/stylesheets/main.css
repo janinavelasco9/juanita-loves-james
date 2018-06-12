@@ -1716,6 +1716,18 @@ textarea:focus + .sls-b-HelperText {
 .sls-u-mah {
   margin-left: 3em !important; }
 
+.b-Link {
+  color: #56bf9c;
+  text-decoration: none; }
+  .b-Link:hover, .b-Link:active, .b-Link:focus {
+    color: #56bf9c;
+    text-decoration: none; }
+
+.b-Link--plain {
+  text-decoration: none; }
+  .b-Link--plain:hover, .b-Link--plain:active, .b-Link--plain:focus {
+    text-decoration: none; }
+
 h1,
 h2,
 h3 {
@@ -1740,9 +1752,27 @@ h3 {
   background-color: #fff; }
 
 .o-Wrapper {
-  max-width: 75rem;
+  max-width: 34em;
   margin: 0 auto;
   padding: 2rem; }
+
+.o-Wrapper--wide {
+  max-width: 50em; }
+
+.c-Button {
+  border-radius: 300px;
+  padding: 0.5rem 2.5rem;
+  background-color: #fff;
+  border-color: #fff;
+  color: #000; }
+
+.c-Button--teal {
+  background-color: #56bf9c;
+  border-color: #56bf9c;
+  color: #fff;
+  padding: 1rem 2.5rem; }
+  .c-Button--teal:hover, .c-Button--teal:active, .c-Button--teal:focus {
+    color: #fff; }
 
 .c-Header {
   position: absolute;
@@ -1795,3 +1825,6 @@ h3 {
 .c-HighlightBoard__title {
   font-size: 55px;
   color: #56bf9c; }
+
+.u-BackgroundGray {
+  background-color: #efefef; }

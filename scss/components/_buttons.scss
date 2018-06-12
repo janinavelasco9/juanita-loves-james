@@ -1,0 +1,20 @@
+.c-Button {
+    border-radius: 300px;
+    padding: 0.5rem 2.5rem;
+    background-color: $white;
+    border-color: $white;
+    color: $black;
+}
+
+.c-Button--teal {
+    background-color: $teal;
+    border-color: $teal;
+    color: $white;
+    padding: 1rem 2.5rem;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $white;
+    }
+}
